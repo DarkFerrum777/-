@@ -10,8 +10,8 @@ int main() {
       case '*' : printf("%.2lf", x=(double)a*b); break;
       case '/' : 
           switch(b) {
-              case 0 : printf("ERROR!"); break; // Должен выводить ERROR! если b = 0, но выводит его всегда
-              default : printf("%.2lf", x=(double)a/b); break; // Считает деление, всегда, когда b не равен 0.
+              case 0 : printf("ERROR!"); break; 
+              default : printf("%.2lf", x=(double)a/b); break; 
           } break;
       default : printf("ERROR!"); break;
   }                    
